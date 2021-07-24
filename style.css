@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+#par {
+    color: white;
+    margin-top: 300px;
+    font-size: 100px;
+}
+
+@media all and(max-width: 500px) {
+    #par {
+        font-size: 50px;
+    }
+}
